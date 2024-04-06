@@ -10,26 +10,100 @@ body{
 
 .box{
     height:100%;
-    width:40%;
+    width:50%;
     margin:0 auto;
-    background-color: rgb(111, 111, 241);
+    background-color: rgb(118, 118, 246);
+    font-family:Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    display: block;
 }
 
 #navbar{
-    height:7rem;
-    width:100%;
-    background-color: #003049;
+    height:5rem;
+    background-color: rgb(7, 7, 96);
+    color:#fff;
+    font-size: 3rem;
     text-align: center;
-    padding:2rem;
-    font-size:4rem;
-    color:antiquewhite;
-    font-family: 'Courier New', Courier, monospace;
+    vertical-align: middle;
+    padding: 2rem;
 }
 
 .details{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content:space-between;
+    height: 50%;
 }
+
+.Intro{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   overflow: hidden;
+   width: 60%; 
+   height: auto;
+}
+
+#image {
+    width: 60%; /* Set the width of the container */
+    height: auto; /* Let the height adjust automatically */
+    overflow: hidden; /* Hide any overflowing content */
+    border-bottom: solid rgb(1, 1, 11);
+}
+
+#image img {
+    max-width: 100%; /* Ensure the image doesn't exceed the container width */
+    height: 100%; /* Maintain aspect ratio */
+    display: block; /* Make sure the image behaves as a block element */
+    margin: 0 auto; /* Center the image horizontally within the container */
+    border: solid rgb(1, 1, 11);
+}
+
+
+#bio{
+    text-align: center;
+    background: linear-gradient(to right, #FFC300, #FF5733, #C70039, #900C3F, #581845); /* Choose gradient colors */
+}
+
+#para{
+    font-size: normal;
+    margin-top: 1rem;
+}
+
+.center{
+    text-align: center;
+}
+
+#btn{
+    padding: 10px 20px; /* Adjust padding as needed */
+    background:linear-gradient(to right, #FFC300, #FF5733, #C70039, #900C3F, #581845);
+    color: white;
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(2, 2, 46);
+    font-size: 1.3rem;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Adjust if needed */
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(7, 7, 96);
+    overflow: hidden;
+    margin-top: 2rem;
+    color: #fff;  
+    display: block;
+}
+
 
 
