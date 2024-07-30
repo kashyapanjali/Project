@@ -30,7 +30,7 @@ h2{
 
 
 form{
-    margin: 2rem 0 1 rem 0;
+    margin: 2rem 0 1rem 0;
 }
 
 form select,button,input{
@@ -38,7 +38,6 @@ form select,button,input{
     border: none;
     outline: none;
     border-radius: 0.75rem;
-
 }
 
 form input{
@@ -54,7 +53,6 @@ form input{
     align-items: center;
     margin-top: 2rem;
 }
-
 
 .dropdown i{
     font-size: 1.5rem;
